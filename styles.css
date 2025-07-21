@@ -138,7 +138,10 @@ div#content.mw-body {
 #content video,
 #content .thumbimage,
 #content .gallerybox,
-#content .mw-ui-icon {
+#content .mw-ui-icon,
+.thumb,
+.youtubebox
+{
     filter: invert(1) hue-rotate(180deg);
 }    
 
@@ -149,7 +152,7 @@ div#content.mw-body {
 /*/////////////////////////////////////////////////////                                /////////////////////////////////////////////*/
 /*////////////////////////////////////////////////////                                //////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
+/*
 div.tfwiki-backpack-item > center > div{
     background-color: #cdc7c0 !important;
 }    
@@ -198,5 +201,4 @@ span.grade_elite,
 span.qua_strange {
   text-shadow: none !important;  
 }  
-
 
