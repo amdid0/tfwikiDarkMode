@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "TF2 Wiki VDC style Dark Mode",
+  "version": "1.1",
+  "description": "Applies a dark mode theme and converts background colors to grayscale.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://wiki.teamfortress.com/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}

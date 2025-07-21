@@ -1,0 +1,202 @@
+/* Outside mw-body */
+
+
+html, body {
+    background-color: #1c1c1c !important;
+    color: #dcdcdc !important;
+    background-image: none !important;
+}
+
+#p-logo {
+    display: none !important;
+}
+
+/* --- mw-head --- */
+/* -- header -- */
+/* Remove margin */
+#p-namespaces li::before, #p-namespaces li::after,
+#p-views li::before, #p-views li::after,
+#p-cactions label::before, #p-cactions label::after {
+    margin: 0 !important;
+}
+/* Remove margin */
+
+#mw-head {
+    
+    background-color: black !important; /* A light color that will be inverted to a dark grey */
+}
+
+#mw-head img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+#left-navigation,
+#right-navigation,
+#p-personal {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+#left-navigation a,
+#right-navigation a,
+#left-navigation h3,
+#right-navigation h3 {
+    color: black !important;
+}
+/* -- header -- */
+/* -- p-personal list -- */
+#pt-userpage,
+#pt-mytalk,
+#pt-sandbox,
+#pt-preferences,
+#pt-watchlist,
+#pt-mycontris,
+#pt-logout {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+li#pt-userpage a,
+li#pt-mytalk a,
+li#pt-sandbox a,
+li#pt-preferences a,
+li#pt-watchlist a,
+li#pt-mycontris a,
+li#pt-logout a {
+    color: white !important;
+}
+/* -- p-personal list -- */
+/* --- mw-head --- */
+
+
+/* --- Sidebar --- */
+#mw-panel {
+  margin-top: 60px;
+}
+
+#mw-panel {
+    background-color: black !important;
+}
+
+#mw-panel #p-Navigation .body ul li a,
+#mw-panel #p-tb .body ul li a,
+#mw-panel #p-Languages .body ul li a,
+#mw-panel #p-Team_Fortress_2 .body ul li a,
+#mw-panel #p-Team_Fortress_Classic .body ul li a,
+#mw-panel #p-Valve_Wiki_Network .body ul li a {
+    color: white !important;
+}
+
+#p-tb-label, #p-Team_Fortress_2-label, #p-Valve_Wiki_Network-label, #p-Team_Fortress_Classic-label {
+    color: white !important;
+}
+
+#mw-panel #p-Navigation .body ul li a,
+#mw-panel #p-tb .body ul li a,
+#mw-panel #p-Languages .body ul li a,
+#mw-panel #p-Team_Fortress_2 .body ul li a,
+#mw-panel #p-Team_Fortress_Classic .body ul li a,
+#mw-panel #p-Valve_Wiki_Network .body ul li a {
+    color: white !important;
+}
+
+#p-tb-label, #p-Team_Fortress_2-label, #p-Valve_Wiki_Network-label, #p-Team_Fortress_Classic-label {
+    color: white !important;
+}
+
+/* --- Sidebar ---*/
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////                                //////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////                                ///////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////           IN MW-BODY           ////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////                                /////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////                                //////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* -- +++ -- */
+
+
+#footer {
+    filter: invert(1) hue-rotate(180deg);
+    background-color: #f0f0f0; /* A light color that will be inverted to a dark grey */
+}
+
+#footer img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+div#content.mw-body {
+    filter: invert(1) hue-rotate(180deg);
+    background-color: #f0f0f0; /* A light color that will be inverted to a dark grey */
+    padding: 4px !important;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+#content img,
+#content video,
+#content .thumbimage,
+#content .gallerybox,
+#content .mw-ui-icon {
+    filter: invert(1) hue-rotate(180deg);
+}    
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////                                //////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////                                ///////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////         handmade(suck)         ////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////                                /////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////                                //////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+div.tfwiki-backpack-item > center > div{
+    background-color: #cdc7c0 !important;
+}    
+
+
+div.tfwiki-backpack-item,
+div.quality-tag.tooltip-unique,
+div.quality-tag.tooltip-normal,
+div.quality-tag.tooltip-vintage,
+div.quality-tag.tooltip-genuine,
+div.quality-tag.tooltip-strange,
+div.quality-tag.tooltip-unusual,
+div.quality-tag.tooltip-haunted,
+div.quality-tag.tooltip-collector,
+div.quality-tag.tooltip-decorated,
+div.quality-tag.tooltip-community,
+div.quality-tag.tooltip-valve
+{
+    background-color: #e2ded9 !important;
+}    
+
+
+
+div.thumb,
+div.quality-tag.tooltip-unique span#tooltip,
+div.quality-tag.tooltip-normal span#tooltip,
+div.quality-tag.tooltip-vintage span#tooltip,
+div.quality-tag.tooltip-genuine span#tooltip,
+div.quality-tag.tooltip-strange span#tooltip,
+div.quality-tag.tooltip-unusual span#tooltip,
+div.quality-tag.tooltip-haunted span#tooltip,
+div.quality-tag.tooltip-collector span#tooltip,
+div.quality-tag.tooltip-decorated span#tooltip,
+div.quality-tag.tooltip-community span#tooltip,
+div.quality-tag.tooltip-valve span#tooltip
+{
+    filter: invert(1) hue-rotate(180deg);
+}    
+
+span.grade_civilian,
+span.grade_freelance,
+span.grade_mercenary,
+span.grade_commando,
+span.grade_assassin,
+span.grade_elite,
+span.qua_strange {
+  text-shadow: none !important;  
+}  
+
+
